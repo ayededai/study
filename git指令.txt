@@ -16,9 +16,11 @@ $ git remote add origin git@github.com: （GitHub账号名）/（创建的库名
 $ git push -u origin master	（修改本地库的文件然后上传到GitHub）(第一次推送加 -u 警告选择yes)
 第四步修改(重复第二步)
 
-
-
-
+第一轮的工程都完成以后
+以后上传本地文件也只需三步
+$git add 文件名.后缀名	
+$ git commit -m "空白"
+$ git push  origin master	
 
 
 
@@ -89,3 +91,5 @@ Git支持多种协议，包括https，但ssh协议速度最快。
 修改readme.txt文件，运行git status命令看看结果。记不清上次怎么修改的readme.txt，用git diff命令
 提交到仓库，第一步git add	($ git add readme.txt     运行git status看看当前仓库的状态)
 第二步git commit	($ git commit -m "add distributed  再用git status命令看看仓库的当前状态：)
+8
+9
